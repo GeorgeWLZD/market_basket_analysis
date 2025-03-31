@@ -4,9 +4,7 @@
 
 FreshMart, a small-sized grocery chain, has been experiencing stagnating sales despite a steady flow of customers. Shoppers visit the store, buy what they came for, and leave without exploring additional product options. The management suspects that untapped cross-selling opportunities exist, but they lack the data-driven insights needed to optimize product placements and marketing efforts.
 
-The goal of this project is to uncover hidden purchasing patterns and recommend strategic business actions. By analyzing transaction data, we can:
-
-With the help of Power BI and Market Basket Analysis, this project extracts valuable insights to drive actionable business decisions for FreshMart.
+The goal of this project is to uncover hidden purchasing patterns and recommend strategic business actions. With the help of Power BI and market basket analysis this project extracts valuable insights to drive actionable business decisions for FreshMart.
 
 ## 2. Data Structure
 
