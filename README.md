@@ -12,11 +12,11 @@ With the help of Power BI and Market Basket Analysis, this project extracts valu
 
 To conduct this analysis, I used a dataset containing 7,835 transactions and 170 unique products. The dataset was structured in two key stages:
 
-**Raw Data**
+**Raw Data**\
 The original dataset consists of a transactional view, where each row represents a customer basket with multiple purchased products.
 ![image alt](https://github.com/GeorgeWLZD/market_basket_analysis/blob/fa688c1e3a50ff7950598a0691479e94ac9af9ee/img/data1.JPG)
 
-**Processed Data** (Power BI Transformation)
+**Processed Data** (Power BI Transformation)\
 To perform Market Basket Analysis, the data was structured into association rules, including the following key metrics:
 - Product 1: The first product in the association.
 - Product 2: The second product in the association.
@@ -25,6 +25,7 @@ To perform Market Basket Analysis, the data was structured into association rule
 - Confidence of Product 1: Probability that customers buying Product 1 will also buy Product 2.
 - Confidence of Product 2: Probability that customers buying Product 2 will also buy Product 1.
 - Lift: Strength of the association, measuring how much more likely two products are bought together compared to random chance.
+
 ![image alt](https://github.com/GeorgeWLZD/market_basket_analysis/blob/fa688c1e3a50ff7950598a0691479e94ac9af9ee/img/data2.JPG)
 
 ## 3. Statistical Results
