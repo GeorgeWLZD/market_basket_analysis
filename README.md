@@ -28,34 +28,49 @@ To perform Market Basket Analysis, the data was structured into association rule
 
 ![image alt](https://github.com/GeorgeWLZD/market_basket_analysis/blob/fa688c1e3a50ff7950598a0691479e94ac9af9ee/img/data2.JPG)
 
-## 3. Statistical Results
+## 3. Results
 
-Once the data was collected, an **analysis of variance (ANOVA)** was executed in order to determine if there is any statistical difference between the performance of the copys. The **F test** indicates that there are statistical significance (p < 0.05), as we see in the table below highlighted in yellow:
+The Power BI dashboard visualizes product associations and highlights strategic opportunities:
 
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/c47b2096d52b8c8c97db24c76e92a324e07a406c/img/anova.JPG)
+![image alt](https://github.com/GeorgeWLZD/market_basket_analysis/blob/3245c4a11cd008c2adbbffd1bd59fbf45a766809/img/viz.JPG)
 
-In order to identify which copy was the best, I executed multiple comparisons using the **Tukey and Bonferroni post hoc tests**, in all the cases all the differences were statistical significant (p < 0.05), in the table below we can see the results highlighted in yellow:
+**Association Rules Table**\
+- Strong product relationships have high Lift values (>2.0) and appear frequently in transactions (high Support).
+- Example: Customers who buy Root Vegetables are 3 times more likely to also purchase Herbs.
+- Opportunity: Bundle these items together in promotions.
 
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/c47b2096d52b8c8c97db24c76e92a324e07a406c/img/posthoc.JPG)
+**Scatter Plot** (Lift vs. Support)\
+- High Lift, Low Support: Hidden opportunities! These product pairs aren't bought together often, but when they are, the association is strong.
+- Example: Wine and Cheese have a Lift of 4.2 but appear in only 2% of transactions.
+- Opportunity: Increase visibility by placing these items closer together in-store or recommending them online.
 
-Finally, I checked the **assumptions** of the ANOVA technique, this is important to get valid statistical inferences. First, **normality assumption** was checked using the **Kolmogorov-Smirnov** and S**hapiro-Wilk** tests, in both cases the results indicate that the assumption was accomplished.
-
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/c47b2096d52b8c8c97db24c76e92a324e07a406c/img/normal.JPG)
-
-The **homoscedasticity assumption** was checked using the **Levene's test**, in this case the results indicate that the variances are the same in all groups.
-
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/c47b2096d52b8c8c97db24c76e92a324e07a406c/img/variance.JPG)
-
-All the results indicate that we can trust the statistical inferences and determine with confidence **the right copy** in order to increase the sales.
+**Network Graph Analysis**\
+- Some products act as key connectors, frequently appearing in multiple strong associations.
+- Example: Whipped/sour cream, yogurt and root vegetables appeared wuite frequently.
+- Opportunity: Position these “anchor products” in prime store locations or highlight them in digital marketing campaigns.
 
 ## 4. Business Recommendation
 
-The A/B test results showed that **Copy B generated the highest sales revenue**, reaching $247, compared to Copy A with $178 and Copy C with $157. Given this outcome, Copies A and C will be discarded in favor of Copy B. We se the results in the following plot:
+Based on the insights from the analysis, here are actionable business strategies:
 
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/e42e7ca58f09e5f91136335ef20767f213bb8be5/img/results.JPG)
+1️⃣ Increase Revenue with Bundling & Discounts
 
-Based on this result, the **recommendations** are:
-- **Implement copy B permanently**: Given its superior performance, Copy B should be set as the default promotional message across all relevant pages.
-- **Monitor performance continuously**: Even though Copy B outperformed the other versions, ongoing monitoring and analysis should be conducted to ensure its effectiveness over time.
-- **Optimize other website elements**: Since promotional copy impacts sales, additional A/B tests should be conducted on other website components, such as call-to-action buttons, images, and layout.
-- **Personalize copy for different audiences**: Further segmentation and testing should be explored to tailor promotional messages to different customer segments and preferences.
+Promote high-lift product pairs with combo deals (e.g., Coffee + Pastries).
+
+Implement "Frequently Bought Together" sections in e-commerce.
+
+2️⃣ Optimize Store Layout & Digital UX
+
+Place strongly related products closer together in physical stores.
+
+Use data-driven recommendations in e-commerce to enhance user experience.
+
+3️⃣ Improve Targeted Marketing & Promotions
+
+High-lift, low-support products need awareness-building campaigns.
+
+Personalize discounts based on past customer purchases.
+
+By leveraging Market Basket Analysis, businesses can drive revenue growth with minimal effort—simply by strategically placing and promoting products. This approach can further be enhanced with machine learning-based recommendation systems for real-time personalized offers.
+
+🚀 Next Steps: Implement automated product recommendations using AI to refine cross-selling strategies.
