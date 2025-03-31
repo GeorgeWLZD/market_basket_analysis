@@ -65,4 +65,4 @@ Based on the insights from the analysis, here are actionable business strategies
 - High-lift, low-support products need awareness-building campaigns.
 - Personalize discounts based on past customer purchases.
 
-By leveraging Market Basket Analysis, FreshMart can drive revenue growth with minimal effort—simply by strategically placing and promoting products. This approach can further be enhanced with machine learning-based recommendation systems for real-time personalized offers. **The next step** is to implement automated product recommendations and use machine learning to refine cross-selling strategies.
+By leveraging **market basket analysis**,8 FreshMart can drive revenue growth with minimal effort—simply by strategically placing and promoting products. This approach can further be enhanced with machine learning-based recommendation systems for real-time personalized offers. **The next step** is to implement automated product recommendations and use machine learning to refine cross-selling strategies.
