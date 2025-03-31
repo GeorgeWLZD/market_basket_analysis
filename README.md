@@ -53,24 +53,16 @@ The **Power BI dashboard** visualizes product associations and highlights strate
 
 Based on the insights from the analysis, here are actionable business strategies:
 
-1️⃣ Increase Revenue with Bundling & Discounts
+**Increase Revenue with Bundling & Discounts**
+- Promote high-lift product pairs with combo deals (e.g., Coffee + Pastries).
+- Implement "Frequently Bought Together" sections in e-commerce.
 
-Promote high-lift product pairs with combo deals (e.g., Coffee + Pastries).
+**Optimize Store Layout & Digital UX**
+- Place strongly related products closer together in physical stores.
+- Use data-driven recommendations in e-commerce to enhance user experience.
 
-Implement "Frequently Bought Together" sections in e-commerce.
+**Improve Targeted Marketing & Promotions**
+- High-lift, low-support products need awareness-building campaigns.
+- Personalize discounts based on past customer purchases.
 
-2️⃣ Optimize Store Layout & Digital UX
-
-Place strongly related products closer together in physical stores.
-
-Use data-driven recommendations in e-commerce to enhance user experience.
-
-3️⃣ Improve Targeted Marketing & Promotions
-
-High-lift, low-support products need awareness-building campaigns.
-
-Personalize discounts based on past customer purchases.
-
-By leveraging Market Basket Analysis, businesses can drive revenue growth with minimal effort—simply by strategically placing and promoting products. This approach can further be enhanced with machine learning-based recommendation systems for real-time personalized offers.
-
-🚀 Next Steps: Implement automated product recommendations using AI to refine cross-selling strategies.
+By leveraging Market Basket Analysis, FreshMart can drive revenue growth with minimal effort—simply by strategically placing and promoting products. This approach can further be enhanced with machine learning-based recommendation systems for real-time personalized offers. **The next step** is to implement automated product recommendations and use machine learning to refine cross-selling strategies.
