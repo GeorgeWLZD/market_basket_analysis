@@ -30,21 +30,21 @@ To perform Market Basket Analysis, the data was structured into association rule
 
 ## 3. Results
 
-The Power BI dashboard visualizes product associations and highlights strategic opportunities:
+The **Power BI dashboard** visualizes product associations and highlights strategic opportunities:
 
 ![image alt](https://github.com/GeorgeWLZD/market_basket_analysis/blob/3245c4a11cd008c2adbbffd1bd59fbf45a766809/img/viz.JPG)
 
-**Association Rules Table**\
+**Association Rules Table**
 - Strong product relationships have high Lift values (>2.0) and appear frequently in transactions (high Support).
 - Example: Customers who buy Root Vegetables are 3 times more likely to also purchase Herbs.
 - Opportunity: Bundle these items together in promotions.
 
-**Scatter Plot** (Lift vs. Support)\
+**Scatter Plot** (Lift vs. Support)
 - High Lift, Low Support: Hidden opportunities! These product pairs aren't bought together often, but when they are, the association is strong.
 - Example: Wine and Cheese have a Lift of 4.2 but appear in only 2% of transactions.
 - Opportunity: Increase visibility by placing these items closer together in-store or recommending them online.
 
-**Network Graph Analysis**\
+**Network Graph Analysis**
 - Some products act as key connectors, frequently appearing in multiple strong associations.
 - Example: Whipped/sour cream, yogurt and root vegetables appeared wuite frequently.
 - Opportunity: Position these “anchor products” in prime store locations or highlight them in digital marketing campaigns.
