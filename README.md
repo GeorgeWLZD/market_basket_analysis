@@ -10,13 +10,22 @@ With the help of Power BI and Market Basket Analysis, this project extracts valu
 
 ## 2. Data Structure
 
-An A/B experiment will be conducted on the Zapoos website, where different versions of **promotional copies** will be tested. Three variations of copys with different approaches will be defined and shown randomly to different user groups, **these are the versions**:
+To conduct this analysis, I used a dataset containing 7,835 transactions and 170 unique products. The dataset was structured in two key stages:
 
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/9ba9ef66524f9c86b41e07d4c0d3b23097d1764c/img/copys.JPG)
+**Raw Data**
+The original dataset consists of a transactional view, where each row represents a customer basket with multiple purchased products.
+![image alt](https://github.com/GeorgeWLZD/market_basket_analysis/blob/fa688c1e3a50ff7950598a0691479e94ac9af9ee/img/data1.JPG)
 
-The metric that will define which copys is better is **sales**. Considering the statistical power ($\beta$ = 0.8), a **stratified sampling** was carried out according to the 3 purchasing times, obtaining a total sample of **738 users** who purchased at least one product in the website, in the table below we can see the distribution of **time and treatment** in the sample:
-
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/88add6c7d2c8e55d0d28b974642ba878266e4b12/img/sampling.JPG)
+**Processed Data** (Power BI Transformation)
+To perform Market Basket Analysis, the data was structured into association rules, including the following key metrics:
+- Product 1: The first product in the association.
+- Product 2: The second product in the association.
+- Basket: The combination of Product 1 and Product 2.
+- Support Basket: Frequency of the product pair appearing together in transactions.
+- Confidence of Product 1: Probability that customers buying Product 1 will also buy Product 2.
+- Confidence of Product 2: Probability that customers buying Product 2 will also buy Product 1.
+- Lift: Strength of the association, measuring how much more likely two products are bought together compared to random chance.
+![image alt](https://github.com/GeorgeWLZD/market_basket_analysis/blob/fa688c1e3a50ff7950598a0691479e94ac9af9ee/img/data2.JPG)
 
 ## 3. Statistical Results
 
