@@ -1,5 +1,8 @@
 # Market Basket Analysis
 
+## Executive Summary
+Retail data containing 7,835 transactions was analyzed to uncover hidden purchasing patterns through Market Basket Analysis. The resulting Power BI visualizations highlight high-lift product associations, delivering strategic recommendations for store layout optimization and targeted promotional bundling.
+
 ## 1. Business Case
 
 FreshMart, a small-sized grocery chain, has been experiencing stagnating sales despite a steady flow of customers. Shoppers visit the store, buy what they came for, and leave without exploring additional product options. The management suspects that untapped cross-selling opportunities exist, but they lack the data-driven insights needed to optimize product placements and marketing efforts.
